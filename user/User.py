@@ -44,8 +44,8 @@ def get_default_login():
     headers["X-Requested-With"] = "XMLHttpRequest"
     login_url = 'http://bbs.byr.cn/user/ajax_login.json'
     user_account = {
-                "id": "deare1300",
-                "passwd": "temp110"
+                "id": "****",
+                "passwd": "****"
                 }
     user = UserLogin(url = login_url, headers = headers, post_data = user_account)
     if user.login("id"):
